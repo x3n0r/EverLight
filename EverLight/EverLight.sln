@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverLight", "EverLight.csproj", "{93ED92E8-F57D-987F-EDB5-F92AC508D508}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EverLight.Editor", "EverLight.Editor.csproj", "{AF16E7B7-4AE8-EE39-BDFF-6E7E7EA67D4C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{93ED92E8-F57D-987F-EDB5-F92AC508D508}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{93ED92E8-F57D-987F-EDB5-F92AC508D508}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{93ED92E8-F57D-987F-EDB5-F92AC508D508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF16E7B7-4AE8-EE39-BDFF-6E7E7EA67D4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF16E7B7-4AE8-EE39-BDFF-6E7E7EA67D4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF16E7B7-4AE8-EE39-BDFF-6E7E7EA67D4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF16E7B7-4AE8-EE39-BDFF-6E7E7EA67D4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

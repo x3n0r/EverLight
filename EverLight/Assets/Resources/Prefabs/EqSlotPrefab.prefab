@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 224810503443441114}
   - component: {fileID: 222236653986084236}
   - component: {fileID: 114006247492024712}
-  - component: {fileID: 114293901558314424}
+  - component: {fileID: 114887445114661822}
   m_Layer: 5
   m_Name: EqSlotPrefab
   m_TagString: Untagged
@@ -73,18 +73,6 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
---- !u!114 &114293901558314424
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1616853902140616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18513aee302fdca4db96418eae87210a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  GearType: 0
 --- !u!114 &114356674992393758
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -118,6 +106,18 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: Weapon
+--- !u!114 &114887445114661822
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1616853902140616}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fce6ea29b533a34a9deeb8d808d482a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GearType: 0
 --- !u!222 &222068497198148698
 CanvasRenderer:
   m_ObjectHideFlags: 1

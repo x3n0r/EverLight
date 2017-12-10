@@ -245,6 +245,7 @@ public class ShopManager : MonoBehaviour
         GameObject NewItem = GameObject.Instantiate(ItemGoPrefab, ItemsParent);
         NewItem.transform.position = PositionsAndOccupation[TheIndexOfMe].aPos;
         ItemProps AccIP = NewItem.GetComponent<ItemProps>();
+        Debug.Log(ItemToAdd + " " + TheIndexOfMe + " " + ItemHome.PlayerBuyTab);
         AccIP.TakeInfo(ItemToAdd, TheIndexOfMe, ItemHome.PlayerBuyTab);
         CustomItemAndGo ItemAndGo = new CustomItemAndGo(ItemToAdd, NewItem);
 
