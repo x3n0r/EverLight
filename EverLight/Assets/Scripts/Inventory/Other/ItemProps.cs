@@ -70,8 +70,10 @@ public class ItemProps : MonoBehaviour , IPointerClickHandler
 
     public void MouseOn()//When hovering over the item
     {
+        Debug.Log("HOVERD:????");
         if (AccHM != null)
         {
+            Debug.Log("HOVERD: " + AccHM);
             AccHM.CallHoverer(transform.position, this);
         }
     }
